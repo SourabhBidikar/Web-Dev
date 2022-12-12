@@ -6,18 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Selectors</title>
     <style>
+        /* element selector */
         p{
             color: red;
+            border: 2px dotted;
         }
 
+        /* id selector */
         #first{
             color: blue;
         }
 
+        /* class selector */
         .aquaElement{
             color: aqua;
         }
+        
+        /* grouping selector */
+        span, footer{
 
+            background-color: pink;
+        }
+        
 
     </style>
 </head>
@@ -27,7 +37,9 @@
     <p id="first">This is a simple paragrapgh to demo CSS Selectors</p>
     <p class="aquaElement">This is another simple paragrapgh to demo CSS Selectors</p>
     <div>
-        <p>This is a yet another simple paragrapgh inside a div to demo CSS Selectors</p>
+       <p>This is a yet another simple paragraph inside a div to demo CSS Selectors</p>
     </div>
+    <span>this is span element</span>
+    <footer>This is footer</footer>
 </body>
 </html>
