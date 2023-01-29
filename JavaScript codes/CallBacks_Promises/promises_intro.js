@@ -1,8 +1,9 @@
+// Demonstartion of use of callbacks.
+
 const posts=[
     {"title":"Book one", "content":"This is post one"},
     {"title":"Book two", "content":"This is post two"}
 ]
-
 
 function getPosts(){
     let output='';

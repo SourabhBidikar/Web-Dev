@@ -1,0 +1,21 @@
+.box-model{
+    border: 1px solid red;
+    height:50px;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#div-center{
+
+    width: 300px;
+    border: 1px solid red;
+    text-align: center;
+    margin: auto; 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+ 
+}

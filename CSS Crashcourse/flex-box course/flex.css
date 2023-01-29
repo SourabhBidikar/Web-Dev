@@ -1,0 +1,65 @@
+.container{
+    border: 6px solid black;
+    height: 800px;
+    display: flex; 
+    /* display: inline-flex; */
+    /*flex-direction: row;  /*main axis left to right*/
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; main axis top to bottom */
+    /* flex-direction: column-reverse; */
+
+    /*flex-wrap: wrap;  wraps depending on viewport size  if we reduce size wraps on next line*/
+
+    /* flex-flow: row wrap;   short hand for above two properties */
+
+
+    /* column-gap: 20px;
+    row-gap: 30px; */
+    /* gap: 30px 20px; same as above */
+
+    /* justify-content: flex-end;
+    justify-content: space-around; */
+
+
+
+
+
+
+}
+
+.flex-item{
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.item-1{
+    flex-grow: 1;
+    background-color: aqua;
+}
+.item-2{
+    background-color: greenyellow;
+}
+
+.item-3{
+    background-color: grey;
+}
+.item-4{
+    background-color: green;
+}
+.item-5{
+    background-color: coral;
+}
+.item-6{
+    background-color: brown;
+}
+.item-7{
+    background-color: hotpink;
+}
+.item-8{
+    background-color: palevioletred;
+}
+.item-9{
+    background-color: mediumspringgreen;
+}
